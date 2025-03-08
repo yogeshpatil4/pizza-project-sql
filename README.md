@@ -9,7 +9,7 @@
   - [Advanced Analysis](#advanced-analysis)
 - [Analysis and Findings](#analysis-and-findings)
 - [Conclusion and Recommendations](#conclusion-and-recommendations)
-- [Appendices](#appendices)
+
 
 ---
 
