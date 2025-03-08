@@ -76,12 +76,3 @@ The analysis is structured into three levels—Basic, Intermediate, and Advanced
   - Extend the analysis by integrating customer feedback data.
   - Develop predictive models to forecast future sales trends.
 
----
-
-## Appendices
-- **SQL Queries:**  
-  All SQL scripts used for data extraction, transformation, and analysis are included in the repository for reproducibility.
-- **Data Dictionary:**  
-  A detailed description of the tables and key fields used in the project.
-- **Additional Documentation:**  
-  Setup instructions and environment details for replicating the analysis.
