@@ -67,4 +67,3 @@ The analysis is structured into three stages:
 ## Conclusion
 This project not only demonstrates practical SQL skills but also provides valuable insights to guide business decisions. The analysis can help optimize inventory, staffing, and promotional strategies by identifying peak ordering periods and high-performing products.
 
-Feel free to explore the SQL queries and further analysis provided in this repository.
