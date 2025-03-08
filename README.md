@@ -9,6 +9,7 @@ Welcome to the Pizza Sales Analysis Project! This project leverages SQL to analy
 - [SQL Concepts Covered](#sql-concepts-covered)
 - [Methodology](#methodology)
 - [Conclusion](#conclusion)
+- [Sample SQL Query](#sample-sql-query)
 
 ## Objectives
 - **Analyze Sales Data:**  
@@ -26,7 +27,7 @@ Welcome to the Pizza Sales Analysis Project! This project leverages SQL to analy
   - **Orders:** Contains overall order information.
   - **Order_Details:** Lists individual pizza orders with quantities and prices.
   - **Pizzas:** Provides details about each pizza (type, size, price).
-  - **Pizza_Types:** Categorizes pizzas into groups (e.g., vegetarian, non-vegetarian).
+  - **Pizza_Types:** Categorizes pizzas (e.g., vegetarian, non-vegetarian).
 - **Data Source & Timeframe:**  
   Data is obtained from **Kaggle** and covers the period from **January 1, 2015 to December 31, 2015**.
 
@@ -67,3 +68,9 @@ The analysis is structured into three stages:
 ## Conclusion
 This project not only demonstrates practical SQL skills but also provides valuable insights to guide business decisions. The analysis can help optimize inventory, staffing, and promotional strategies by identifying peak ordering periods and high-performing products.
 
+## Sample SQL Query
+Below is an example SQL query that retrieves the total number of orders from the dataset:
+
+```sql
+SELECT COUNT(*) AS total_orders
+FROM Orders;
