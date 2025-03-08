@@ -3,13 +3,16 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Data Description](#data-description)
+- [Project Level](#project-level)
+- [SQL Concepts Covered](#sql-concepts-covered)
 - [Methodology](#methodology)
   - [Basic Analysis](#basic-analysis)
   - [Intermediate Analysis](#intermediate-analysis)
   - [Advanced Analysis](#advanced-analysis)
+- [SQL Queries](#sql-queries)
 - [Analysis and Findings](#analysis-and-findings)
 - [Conclusion and Recommendations](#conclusion-and-recommendations)
-
+- [Appendices](#appendices)
 
 ---
 
@@ -28,6 +31,30 @@ This project analyzes pizza sales data to extract actionable insights and identi
 
 - **Data Source & Timeframe:**  
   The dataset is sourced from **Kaggle** and covers sales data from **January 1, 2015 to December 31, 2015**.
+
+---
+
+## Project Level
+- **Beginner:**  
+  This project is designed for beginners to intermediate SQL users. It covers fundamental SQL queries and gradually introduces more advanced concepts, making it an ideal resource for those looking to build their SQL skills.
+
+---
+
+## SQL Concepts Covered
+- **Basic Concepts:**  
+  - SELECT statements, filtering, and sorting.
+  - Aggregation functions such as COUNT, SUM, AVG, MAX, and MIN.
+  - Basic JOIN operations to combine data from multiple tables.
+
+- **Intermediate Concepts:**  
+  - GROUP BY for data aggregation.
+  - Time-based data analysis to identify trends (e.g., hourly/daily patterns).
+  - Advanced JOINs and subqueries.
+
+- **Advanced Concepts:**  
+  - Calculating cumulative sums.
+  - Determining percentage contributions.
+  - Complex queries combining multiple SQL functions and operations.
 
 ---
 
@@ -55,24 +82,10 @@ The analysis is structured into three levels—Basic, Intermediate, and Advanced
 
 ---
 
-## Analysis and Findings
-- **Sales Trends:**  
-  The analysis reveals peak ordering hours and high-demand days, which are critical for planning staffing and inventory.
-- **Product Performance:**  
-  Insights into the most popular and highest-priced pizzas help in refining the menu and targeting promotions.
-- **Revenue Drivers:**  
-  Advanced metrics highlight which pizza types contribute most significantly to overall revenue, guiding pricing and marketing strategies.
+## SQL Queries
+Here are some sample SQL queries used in this project:
 
----
-
-## Conclusion and Recommendations
-- **Key Insights:**  
-  - A significant percentage of orders occur during specific peak hours.
-  - Certain pizza types consistently drive higher revenue.
-- **Business Implications:**  
-  - Adjust inventory and staffing levels during identified peak periods.
-  - Consider revising the menu or launching targeted promotions for high-performing pizzas.
-- **Future Work:**  
-  - Extend the analysis by integrating customer feedback data.
-  - Develop predictive models to forecast future sales trends.
-
+- **Total Orders:**
+  ```sql
+  SELECT COUNT(*) AS total_orders
+  FROM Orders;
